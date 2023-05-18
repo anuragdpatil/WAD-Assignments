@@ -1,0 +1,292 @@
+.navi {
+  background-color: rgba(107, 107, 107, 0.134);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.navibar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hope ul {
+  margin-top: 0;
+  padding-left: 5%;
+  list-style: none;
+  text-align: left;
+}
+
+.hope li {
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.hope li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Glorify;
+  transition: 0.3s;
+}
+
+.hope li a:hover {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  padding: auto;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  padding: auto;
+  text-decoration: none;
+}
+
+.hope a .o {
+  margin-bottom: 0px;
+}
+
+.hope ul .pls {
+  padding-left: 300px;
+}
+
+.hope ul .plss {
+  padding-right: 350px;
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-toggler {
+    margin: 0px !important;
+  }
+}
+
+/* @media screen and (max-width: 1345px) {
+  .navbar-collapse{
+    display: none !important;
+  }
+}  */
+
+ul.dropdown-menu.show {
+  background-color: #262626;
+  text-decoration: none;
+}
+
+/*  */
+
+body {
+  font-family: Glorify;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background: linear-gradient(-45deg, #c165ff, #edaaff, #889eff, #254dff);
+  background-size: 400% 600%;
+  animation: gradient 4s ease infinite, fadeInAnimation ease 2s;
+  height: 100vh;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*  */
+
+h7 {
+  font-size: larger;
+  color: #ffffff;
+}
+
+h8 {
+  font-size: 1100%;
+  padding: auto;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  h8 {
+    font-size: 900%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h8 {
+    font-size: 700%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h8 {
+    font-size: 500%;
+    padding: auto;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+}
+
+h81 {
+  font-size: 350%;
+  padding: auto;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h9 {
+  font-size: 700%;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+/*  */
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.card {
+  width: 80%;
+  height: 100px;
+  align-self: center;
+  margin: auto;
+  margin-bottom: 20%;
+  border-radius: 10px;
+  background-position: bottom;
+}
+
+.card {
+  width: 80%;
+  height: 100px;
+  align-self: center;
+  margin: auto;
+  margin-bottom: 20%;
+  border-radius: 10px;
+  background-position: bottom;
+}
+
+.card-body {
+  margin: auto;
+  height: auto;
+}
+
+.text-muted {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.text-muted.visible {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: Glorify;
+  src: url('assets/fonts/Glorifydemo-BW3J3.otf');
+}
+
+h1 {
+  font-family: Glorify
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 90%;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  transition: 0.5s;
+  padding: auto;
+  text-decoration: none;
+}
+
+.product {
+  width: 85%;
+  border-radius: 0px !important;
+  height: auto !important;
+}
+
+.card-img-top {
+  border-radius: 0px !important;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.card-text {
+  color: grey;
+  font-size: 90%;
+}
+
+.btn {
+  font-size: smaller !important;
+  background-color: black !important;
+  border-radius: 0px !important;
+  border-color: black !important;
+  margin-bottom: 10%;
+}
+
+.navbar-toggler {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  color: white;
+  fill: white;
+  align-content: end;
+}
